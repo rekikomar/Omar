@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">omar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ville">Choisir ville</string>
+    <string-array name="ville">
+        <item>Ariana</item>
+        <item>Ben Arous</item>
+        <item>Béja</item>
+        <item>Bizerte</item>
+        <item>Gabès</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kébili</item>
+        <item>Kef</item>
+        <item>Mahdia</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>Manouba</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>
+    </string-array>
+    <string name="Article">Choisir Article</string>
+    <string name="famille">Choisir Famille</string>
+    <string name="forniseur">Choisir Forniseur</string>
+
+    <string name="TVA">Choisir TVA</string>
+    <string-array name="TVA">
+    <item>6</item>
+    <item>12</item>
+    <item>18</item>
+    </string-array>
+
+</resources>

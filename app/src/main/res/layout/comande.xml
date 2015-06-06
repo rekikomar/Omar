@@ -1,0 +1,73 @@
+     <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+      android:background="@drawable/ba"  >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Article:"
+            android:id="@+id/textView9" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerA"
+            android:prompt="@string/Article"
+             />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forniseur:"
+            android:id="@+id/textView10" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerF"
+            android:prompt="@string/forniseur"
+            />
+    </TableRow>
+    <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Quantite:"
+                 android:id="@+id/textView11" />
+
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="phone"
+                 android:ems="10"
+                 android:id="@+id/editText11" />
+
+    </TableRow>
+         <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/imageButton1" android:layout_marginLeft="0dp" android:layout_marginTop="5dp">
+
+         <ImageView android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:src="@drawable/date" android:text="donner la date" />
+             <DatePicker android:id="@+id/dpResult" android:layout_width="0dp" android:layout_height="0dp" />
+             <TextView android:id="@+id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:textColor="#000000" android:layout_marginLeft="5dp" android:text="" android:textAppearance="?android:attr/textAppearanceLarge" />
+         </TableRow>
+         <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/imageButton1" android:layout_marginLeft="0dp" android:layout_marginTop="5dp">
+             <ImageView android:id="@+id/btnChangeTime" android:layout_width="150dp" android:layout_height="wrap_content" android:text="Entrer l'heure" android:src="@drawable/heure" />
+             <TextView android:id="@+id/tvTime" android:layout_width="150dp" android:layout_height="50dp" android:text="" android:textAppearance="?android:attr/textAppearanceLarge" />
+             <TimePicker android:id="@+id/timePicker1" android:layout_width="75dp" android:layout_height="25dp" android:visibility="gone" />
+         </TableRow>
+
+
+
+         <ImageView android:id="@+id/suivantrapport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"   android:src="@drawable/commande" />
+
+</LinearLayout>

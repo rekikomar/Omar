@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10px"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/stock"
+            />
+        <TextView android:id="@+id/titre"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textSize="20px"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/titre1"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textSize="20px"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre2"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre3"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:textSize="20px"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre4"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre5"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre6"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:layout_marginLeft="10dp" />
+        <TextView android:id="@+id/titre7"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>

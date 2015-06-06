@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.win.omar" >
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_CHANGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.win.omar.entree" />
+        <activity android:name="com.example.win.omar.article" />
+        <activity android:name="com.example.win.omar.Fam" />
+        <activity android:name="com.example.win.omar.add" />
+        <activity android:name="com.example.win.omar.com" />
+        <activity android:name="com.example.win.omar.autre" />
+        <activity android:name="com.example.win.omar.list" />
+        <activity android:name="com.example.win.omar.updateA" />
+        <activity android:name="com.example.win.omar.stock" />
+
+        <activity android:name="com.example.win.omar.NextActivity" />
+        <service android:name="com.example.win.omar.MyAlarmService" android:enabled="true" />
+        <receiver android:name="com.example.win.omar.MyReceiver" />
+        <activity android:name="com.example.win.omar.f" />
+        <activity android:name="com.example.win.omar.v" />
+
+
+    </application>
+
+</manifest>
